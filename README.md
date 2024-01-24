@@ -3,13 +3,11 @@ This is a data streaming project that uses a python script to act as a producer,
 
 # Configurations:
 1. Head over to this link: https://kafka.apache.org/downloads and download kafka
-2. Starting Zookeeper
-<br>
+2. Starting Zookeeper<br />
   a. Now in the Terminal or CMD head over to the kafka folder using and put
      the following command: bin/zookeeper-server-start.sh
      config/zookeeper.properties
-4. Starting Kafka Server
-<br>
+4. Starting Kafka Server<br/>
   a. Open a new Terminal or CMD window, and head over to the kafka folder
      and put the following command: bin/kafka-server-start.sh
      config/server.properties
